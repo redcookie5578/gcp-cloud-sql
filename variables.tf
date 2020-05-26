@@ -40,7 +40,7 @@ variable "db_collation" {
 
 variable "user_name" {
   description = "The name of the default user"
-  default = ""
+  default = "default"
 }
 
 variable "user_host" {
